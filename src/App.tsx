@@ -127,9 +127,9 @@ function App() {
         <div className="sidebar-header">
           <div className="logo-section">
             <div className="logo">
-              <span className="logo-icon">🤡</span>
+              <span className="logo-icon"></span>
               {!sidebarCollapsed && (
-                <span className="logo-text">Shit Fiesta</span>
+                <span className="logo-text">Diesta AI</span>
               )}
             </div>
             <button
@@ -212,8 +212,8 @@ function App() {
           {messages.length === 0 ? (
             <div className="welcome-screen">
               <div className="welcome-content">
-                <h1>Welcome to AI Fiesta</h1>
-                <p>Choose an AI provider and start chatting!</p>
+                <h1>Welcome to DIESTA AI</h1>
+                <p>Choose an AI model and start chatting!</p>
                 <div className="provider-grid">
                   {AI_PROVIDERS.map((provider) => (
                     <button
