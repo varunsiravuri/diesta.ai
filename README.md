@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # DIESTA AI
 
 ALL IN ONE AI chat interface that allows you to interact with multiple AI services through a single, unified interface.
